@@ -1,0 +1,86 @@
+body { 
+  background-color: #F6E59D;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+#header {
+  background-color: #34394C;
+  height:           120px;
+}
+
+#main {
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+}
+
+#footer {
+  background-color: #34394C;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+tr {
+  text-align:       center;
+}
+
+/* -- navigation -- */
+#navbar {
+  width:            100%; 
+  height:           31px;
+  background-color: #34394C;
+  margin:           1px;
+}
+#navbar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#navbar ul li {
+	float:left;
+}
+
+#navbar ul li a{
+	color:#fff; 
+	background-color:#34394C;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+
+#navbar ul li a.selected {background-color:#b76666;}
