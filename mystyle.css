@@ -84,3 +84,23 @@ tr {
 }
 
 #navbar ul li a.selected {background-color:#b76666;}
+
+/* -- signup -- */
+
+#signup_Top{
+	margin: 40px 0 0 0;
+}
+
+#signup_Table {
+	width:730px;
+	border: 1px solid #000000;
+	padding: 60px;
+	margin: -3px 0 40px 0;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.st {
+	padding-left: 100px;
+}
