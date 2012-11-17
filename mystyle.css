@@ -40,14 +40,15 @@ h2 { font-size: 110%; }
 }
 
 a:link {
-  color:            #b76666;
+  color:            #34394C
   text-decoration:  none;
-  border-bottom:    thin dotted #b76666;
+  border-bottom:    thin dotted #34394C;
 }
+
 a:visited {
-  color:            #675c47;
+  color:            #34394C;
   text-decoration:  none;
-  border-bottom:    thin dotted #675c47;
+  border-bottom:    thin dotted #F6E59D;
 }
 
 tr {
@@ -81,6 +82,7 @@ tr {
 	font: bold 12px/30px Tahoma;
 	text-decoration:none;
 	margin-right:1px;
+	border-bottom:thin dotted #34394C;
 }
 
 #navbar ul li a.selected {background-color:#b76666;}
@@ -103,4 +105,9 @@ tr {
 
 .st {
 	padding-left: 100px;
+}
+
+.st_OK {
+	padding-top: 20px;
+	text-align: right;
 }
