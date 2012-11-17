@@ -32,13 +32,6 @@ h1 {
 
 h2 { font-size: 110%; }
 
-.slogan { color: #954b4b; }
-
-.beanheading {
-  text-align:       center;
-  line-height:      1.8em;
-}
-
 a:link {
   color:            #34394C
   text-decoration:  none;
@@ -111,3 +104,34 @@ tr {
 	padding-top: 20px;
 	text-align: right;
 }
+
+/* -- login -- */
+
+#login_Window{
+	
+	width:855px;
+	border: 1px solid #000000;
+	margin: -3px 0 40px 0;	
+}
+#login_Table {
+	text-align: left;
+	padding: 60px;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+#login_Table a {
+	color:#34394C
+}
+
+.lt_OK {
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+#login_Facebook {
+	
+}
+
