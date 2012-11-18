@@ -16,39 +16,60 @@
     <div id="navbar">
       <ul>
         <li><a href="index.html">HOME</a></li>
-        <li><a href="profile.html">Mypage</a></li>
+        <li><a href="profile.html" class="selected">Mypage</a></li>
         <li><a href=>Survey Service</a></li>
         <li><a href=>Help</a></li>
       </ul>
     </div>
-    
-    <center>
-      <div id="signup_Top">
-      <img src="./images/SignUp_Window_Top.jpg"/>
+
+    <div id="profile_Body"  style="float:left;">
+     <div id="mypage_Top">
+      <img src="./images/Mypage.jpg"/>
+    </div>
+    <div id="mypage_Main">
+      <table id="mypage_Table" > 
+        <tbody>
+          <tr>
+            <td class="mt"> <a href="index.html">개인정보 변경</a> </td>
+          </tr>
+          <tr>
+            <td class="mt"> <a href="index.html">설문조사 관리</a> </td>
+          </tr>
+          <tr>
+            <td class="mt"> <a href="index.html">회원 탈퇴</a> </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
       </div>
-      <div id="signup_Main">
+    </div>
+    <div id="profile_Body" style="float:left">
+      <div id="profile_Top" >
+      <img src="./images/Profile_Window_Top.jpg"/>
+      </div>
+      <div id="profile_Main">
      <form method="post"> 
-                <table id="signup_Table" cellpadding=8 > 
+                <table id="profile_Table" cellpadding=8 > 
                     <tbody> 
                   
                         <tr> 
-                            <td class="st">ID</td> 
-                            <td><input type="text" name="id"/></td> 
+                            <td class="pt">ID</td> 
+                            <td class="pt_text">60112348</td>
                         </tr> 
                         <tr> 
-                            <td class="st">이름</td> 
+                            <td class="pt">이름</td> 
                             <td><input type="text" name="name"/></td> 
                         </tr> 
                         <tr> 
-                            <td class="st">비밀번호</td> 
+                            <td class="pt">비밀번호</td> 
                             <td><input type="password" name="password"/></td> 
                         </tr> 
                         <tr> 
-                            <td class="st">비밀번호 확인</td> 
+                            <td class="pt">비밀번호 확인</td> 
                             <td><input type="password" name="password"/></td> 
                         </tr> 
                         <tr>
-                            <td class="st">생년월일</td>
+                            <td class="pt">생년월일</td>
                             <!-- 빨리 자바스크립트배워와 -->
                             <td><select name='year'> 
                                    <option value='1910'>1910</option>
@@ -204,19 +225,19 @@
                                    <option value='day31'>31</option>
                                    </select>
                         <tr> 
-                            <td class="st">이메일</td> 
+                            <td class="pt">이메일</td> 
                             <td><input type="text" name="email"/></td> 
                         </tr>
                         <tr> 
-                            <td class="st">주소</td> 
+                            <td class="pt">주소</td> 
                             <td><input type="text" name="id"/></td> 
                         </tr> 
                         <tr> 
-                            <td class="st">휴대전화번호</td> 
+                            <td class="pt">휴대전화번호</td> 
                             <td><input type="text" name="phoneNumber"/></td> 
                         </tr> 
                         <tr>
-                            <td class="st_OK"> <a href="index.html"><img src="./images/SignUp_Button.jpg"/></a> </td>
+                            <td class="pt_OK"> <a href="index.html"><img src="./images/Profile_Button.jpg"/></a> </td>
                         </tr>
 
                     </tbody> 
@@ -225,7 +246,7 @@
 
         </form>
       </div>
-      </center>
+      </div>
+</body>
 
-  </body>
 </html>

@@ -18,6 +18,7 @@ body {
 }
 
 #footer {
+  float: left;
   background-color: #34394C;
   color:            #efe5d0;
   text-align:       center;
@@ -107,8 +108,10 @@ tr {
 
 /* -- login -- */
 
+#login_Top{
+	margin: 40px 0 0 0;
+}
 #login_Window{
-	
 	width:855px;
 	border: 1px solid #000000;
 	margin: -3px 0 40px 0;	
@@ -135,3 +138,51 @@ tr {
 	
 }
 
+/* -- mypage -- */
+
+#mypage_Top {
+	margin: 40px 0 0 0;
+}
+
+#mypage_Table {
+	width:169px;
+	border: 1px solid #000000;
+	padding: 30px;
+	margin: -3px 0 40px 0;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#mypage_Table a{
+	color:black;
+}
+/* -- profile -- */
+
+#profile_Body {
+	
+}
+
+#profile_Top {
+	margin: 40px 0 0 0;
+}
+
+#profile_Table {
+	width:730px;
+	border: 1px solid #000000;
+	padding: 60px;
+	margin: -3px 0 40px 0;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.pt {
+	padding-left: 100px;
+}
+
+.pt_OK {
+	padding-top: 20px;
+	text-align: right;
+}
