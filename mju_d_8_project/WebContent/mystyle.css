@@ -192,6 +192,41 @@ fieldset {
 }
 
 /* -- login -- */
+
+.login_window {
+	width: 855px;
+	position: absolute;
+	left: 50%;
+	margin-left: -427.5px;
+	margin-top: 40px;
+}
+
+.login_top {
+	border: 1px solid #000000;
+}
+
+.login_main {
+	width: 427px;
+	border: 1px solid #000000;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.login_form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.login-group{
+	padding: 3px;
+}
+
+.login-group label, .login-group div{
+	width: 50px;
+	margin-left: 10%;
+}
+
 #login_Top {
 	margin: 40px 0 0 0;
 }
