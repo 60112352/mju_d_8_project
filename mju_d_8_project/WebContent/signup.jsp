@@ -4,19 +4,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>www.surveyNote.com</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css" />
+<title>Welcome to SURVEY NOTE</title>
+<link rel="stylesheet" type="text/css" href="./css/mystyle.css" />
 </head>
 <body>
 	<jsp:include page="share/header.jsp"></jsp:include>
 	<jsp:include page="share/navbar.jsp"></jsp:include>
 
-	<div class="signup_window">
-		<div class="signup_top">
-			<img src="./images/SignUp_Window_Top.jpg" />
+	<div id="window">
+		<div class="window_top">
+			회원가입
 		</div>
-
-		<div class="signup_main">
+		<div class="window_main">
 			<form class="signup_form" method="post">
 				<fieldset>
 

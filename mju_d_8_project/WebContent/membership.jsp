@@ -10,6 +10,21 @@
 <body>
 	<jsp:include page="share/header.jsp"></jsp:include>
 	<jsp:include page="share/navbar.jsp"></jsp:include>
-			
+	
+	<div id="category">
+		<div class="category_top">
+			My Page
+		</div>
+		<div class="category_main">
+			<a href="">회원 정보</a><br>
+			<a href="">회원 가입</a><br>
+		</div>
+	</div>
+	<div id="window">
+		<div class="window_top">
+			회원정보
+		</div>
+	</div>
+
 </body>
 </html>
