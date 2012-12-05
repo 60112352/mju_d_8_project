@@ -4,7 +4,9 @@ body {
 	font-size: small;
 	margin: 0px;
 }
-
+img{
+	border: none;
+}
 #header {
 	background-color: #34394C;
 	height: 120px;

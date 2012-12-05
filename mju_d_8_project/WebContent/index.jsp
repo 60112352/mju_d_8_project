@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Welcome to SURVEY NOTE</title>
 <link rel="stylesheet" type="text/css" href="./css/mystyle.css" />
+<script type="text/javascript" src="js/myscript.js"></script>
 </head>
 <body>
 	<jsp:include page="share/header.jsp"></jsp:include>
