@@ -1,0 +1,299 @@
+body {
+	background-color: #FBFF86;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+#header {
+	background-color: #34394C;
+	height: 120px;
+}
+
+#main {
+	background: #efe5d0 url(images/background.gif) top left;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px 10px 10px 10px;
+}
+
+#footer {
+	float: left;
+	background-color: #34394C;
+	color: #efe5d0;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+}
+
+h1 {
+	font-size: 120%;
+	color: #954b4b;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+a:link {
+	text-decoration: none;
+	text-decoration: none;
+	/*border-bottom: none;*/
+}
+
+a:visited {
+	color: #34394C;
+	text-decoration: none;
+	border-bottom: thin dotted #F6E59D;
+}
+
+a:hover {
+	text-decoration: none;
+	text-decoration: none;
+	/*border-bottom: none;*/
+}
+
+a:active {
+	text-decoration: none;
+	text-decoration: none;
+	/*border-bottom: none;*/
+}
+
+tr {
+	text-align: left;
+}
+
+/* -- navigation -- */
+#navbar {
+	width: 100%;
+	height: 31px;
+	background-color: #34394C;
+	margin: 1px 0;
+}
+
+#navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	color: white;
+	background-color: #34394C;
+	display: block;
+	width: 120px;
+	text-align: center;
+	padding: 0px 10px;
+	font: bold 12px/30px Tahoma;
+	text-decoration: none;
+	margin: 0;
+	border-bottom: thin dotted #34394C;
+}
+
+#navbar ul li a.selected {
+	background-color: #b76666;
+}
+
+/* -- category -- */
+#category{
+	width: 150px;
+	margin: 10px;
+	float: left;-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.category_top {
+	background-color: #34394C;
+	width: 150px;
+	color: white;
+	font: 20px Tahoma;
+	text-align: center;
+	padding: 10px 0;
+	float: left;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-radius: 15px 15px 0 0;
+}
+
+.category_main {
+	background-color: #FFFFAA;
+	width: 100%;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+	float: left;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-radius: 0 0 15px 15px;
+}
+
+.category_main a {
+	font: 20px;
+	color: #34394C;
+	font-family: malgun gothic;
+}
+
+/* -- window -- */
+#window {
+	width: 700px;
+	margin: 10px;
+	float: left;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.window_top {
+	background-color: #34394C;
+	height: 50px;
+	width: 100%;
+	color: white;
+	font: bold 35px Tahoma;
+	float: left;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-radius: 15px 15px 0 0;
+}
+
+.window_main {
+	background-color: #FFFFAA;
+	width: 100%;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 20px 0;
+	float: left;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-radius: 0 0 15px 15px;
+}
+
+.st {
+	padding-left: 100px;
+}
+
+.control-group {
+	padding: 10px;
+}
+
+.control-group label {
+	float: left;
+	width: 160px;
+	margin-left: 28%;
+}
+
+.st_OK {
+	padding-top: 20px;
+	text-align: right;
+}
+
+.signup_Top {
+	margin: 40px 0 0 0;
+}
+
+.signup_form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+fieldset {
+		border: 0px;
+}
+
+.form-actions{
+	margin-top: 40px;
+	margin-left: 44%;
+}
+
+/* -- login -- */
+#login_Top {
+	margin: 40px 0 0 0;
+}
+
+#login_Window {
+	width: 855px;
+	border: 1px solid #000000;
+	margin: -3px 0 40px 0;
+}
+
+#login_Table {
+	text-align: left;
+	padding: 60px;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#login_Table a {
+	color: #34394C
+}
+
+.lt_OK {
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+#login_Facebook {
+	
+}
+
+/* -- mypage -- */
+#mypage_Top {
+	margin: 40px 0 0 0;
+}
+
+#mypage_Table {
+	width: 169px;
+	border: 1px solid #000000;
+	padding: 30px;
+	margin: -3px 0 40px 0;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#mypage_Table a {
+	color: black;
+}
+/* -- profile -- */
+#profile_Body {
+	
+}
+
+#profile_Top {
+	margin: 40px 0 0 0;
+}
+
+#profile_Table {
+	width: 730px;
+	border: 1px solid #000000;
+	padding: 60px;
+	margin: -3px 0 40px 0;
+	font-family: malgun gothic;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.pt {
+	padding-left: 100px;
+}
+
+.pt_OK {
+	padding-top: 20px;
+	text-align: right;
+}
